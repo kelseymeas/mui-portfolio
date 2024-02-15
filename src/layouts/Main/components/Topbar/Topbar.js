@@ -12,11 +12,11 @@ const Topbar = ({ onSidebarOpen, pages, colorInvert = false }) => {
   const { mode } = theme.palette;
   const {
     landings: landingPages,
-    secondary: secondaryPages,
-    company: companyPages,
-    account: accountPages,
+    // secondary: secondaryPages,
+    // company: companyPages,
+    // account: accountPages,
     // portfolio: portfolioPages,
-    blog: blogPages,
+    // blog: blogPages,
   } = pages;
 
   return (
@@ -53,15 +53,17 @@ const Topbar = ({ onSidebarOpen, pages, colorInvert = false }) => {
             colorInvert={colorInvert}
           />
         </Box>
-        <Box marginLeft={4}>
+       
+        {/* <Box marginLeft={4}>
           <NavItem
             title={'Company'}
             id={'company-pages'}
             items={companyPages}
             colorInvert={colorInvert}
           />
-        </Box>
-        <Box marginLeft={4}>
+        </Box> */}
+
+        {/* <Box marginLeft={4}>
           <NavItem
             title={'Account'}
             id={'account-pages'}
@@ -84,7 +86,7 @@ const Topbar = ({ onSidebarOpen, pages, colorInvert = false }) => {
             items={blogPages}
             colorInvert={colorInvert}
           />
-        </Box>
+        </Box> */}
 
         <Box marginLeft={4}>
           <Button
