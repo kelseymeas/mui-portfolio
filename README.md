@@ -1,70 +1,89 @@
-# Getting Started with Create React App
+# [theFront - Multipurpose Template + UI Kit](https://thefront.maccarianagency.com/)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+MUI & ReactJS based Landing Pages Kit made with [MUI's](https://mui.com/?ref=maccarian-agency) components, [React](https://reactjs.org/?ref=maccarian-agency). It supports [create-react-app](https://facebook.github.io/create-react-app/?ref=maccarian-agency) build-tools (react-scripts), [NextJS](https://nextjs.org/?ref=maccarian-agency), [GatsbyJS](https://www.gatsbyjs.com/?ref=maccarian-agency) and Typescript to boost your app development process!
+A professional React Kit that comes with plenty of ready-to-use MUI components that will help you to build faster & beautiful fontend pages. Each component is fully customizable, responsive and easy to integrate.
 
-## Available Scripts
+## Built with
 
-In the project directory, you can run:
+- React
+- MUI
+- React Scripts
+- NextJS
+- GatsbyJS
+- Typescript
+- Figma & Sketch
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+theFront landing page examples can be used out of the box, but since they’re built on flexible components, you can also create new pages all your own with ease. Copy-paste a section here, a component there, switch up a few variables, and you have an entirely new landing!
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- More than 45 pages
+- 300+ component reusable compositions
+- create-react-app & react-scripts support
+- NextJS and server side rendering support
+- GatsbyJS and server side rendering support
+- Typescript support
+- Dark mode support
+- Image lazy loading support
+- Animated sections on scroll
+- Swiper support
+- Fully responsive on all modern browsers
+- Figma and Sketch design files (available in Standard Plus & Extended licences)
+- Rich documentation with code samples and parameters/options
+- Free customer support
+- Free updates
 
-### `npm test`
+## Learn more
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [Launch a live demo](https://thefront.maccarianagency.com)
+- [Documentation & Quick Start](https://thefront.maccarianagency.com/docs/introduction)
 
-### `npm run build`
+## Design Highlights
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+theFront was designed as a rich system from the start, which is reflected in both the end result and the original design.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- 15 Figma and Sketch files are available
+- Beautiful, modern style flexible enough to suit most brands
+- All images are included with a free-to-use license
+- Icon set provided by Font Awesome Kit
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The following are the pages that have Figma and Sketch design implementation:
 
-### `npm run eject`
+- [Job Listing](https://thefront.maccarianagency.com/job-listing)
+- [Rental](https://thefront.maccarianagency.com/rental)
+- [E-commerce](https://thefront.maccarianagency.com/e-commerce)
+- [Cloud Hosting](https://thefront.maccarianagency.com/cloud-hosting)
+- [Logistics](https://thefront.maccarianagency.com/logistics)
+- [Portfolio](https://thefront.maccarianagency.com/portfolio-page)
+- [Career Listing](https://thefront.maccarianagency.com/career-listing-minimal)
+- [Career Opening](https://thefront.maccarianagency.com/career-opening)
+- [Help Center](https://thefront.maccarianagency.com/help-center)
+- [Company About](https://thefront.maccarianagency.com/about)
+- [Company Pricing](https://thefront.maccarianagency.com/pricing)
+- [Blog Newsroom](https://thefront.maccarianagency.com/blog-newsroom)
+- [Blog Article](https://thefront.maccarianagency.com/blog-article)
+- [Company Contact](https://thefront.maccarianagency.com/contact-page)
+- [Account Page](https://thefront.maccarianagency.com/account/general)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Quick start
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Install dependencies: `yarn install`
+- Start the server: `yarn run start`
+- Build on production: `yarn run build`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## MUI Documentation
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+The full documentation for the React Material Kit can be found [here](https://mui.com?ref=maccarian-agency).
 
-## Learn More
+## Free Updates and Support
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+No matter how well documented and built something is, sometimes you just need a little help! That’s why we make ourselves available to help you anytime, just contact our [support](hi@maccarianagency.com) email. We’re also planning tons of updates! In addition to keeping theFront up to date with MUI's core and any necessary patches, we’ll be adding new features regularly over the coming months!
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- [Contact us via email](hi@maccarianagency.com)
 
-### Code Splitting
+## Contact Us
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Email Us: hi@maccarianagency.com
+- [Follow us on Linkedin](https://www.linkedin.com/company/maccarian)
+- [Follow us on Instagram](https://www.instagram.com/maccarian/)
+- [Follow us on Facebook](https://facebook.com/maccarian.agency/)
