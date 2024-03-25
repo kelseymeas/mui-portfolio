@@ -8,7 +8,7 @@ import {
   FeaturesWithSimpleIcons,
   LogoGridSimpleCentered
 } from './components';
-
+// added some changes to the code
 const Apex = () => {
   return (
     <Main>
