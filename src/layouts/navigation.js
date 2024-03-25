@@ -1,6 +1,10 @@
 const pages = {
   landings: [
     {
+      title: 'Apex',
+      href: '/apex',
+    },
+    {
       title: 'Mobile App',
       href: '/mobile-app',
     },

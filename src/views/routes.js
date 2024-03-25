@@ -53,12 +53,13 @@ import {
   AccountSecurity as AccountSecurityView,
   NotFound as NotFoundView,
   NotFoundCover as NotFoundCoverView,
+  Apex as ApexView,
 } from 'views';
 
 const routes = [
   {
     path: '/',
-    renderer: (params = {}) => <StartupView {...params} />,
+    renderer: (params = {}) => <ApexView {...params} />, // Change back to 'StartupView' when ready
   },
   {
     path: '/home',
