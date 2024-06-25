@@ -4,16 +4,17 @@ import { useTheme } from '@mui/material/styles';
 
 import Main from 'layouts/Main';
 import Container from 'components/Container';
-import { Hero, Main as MainSection, Partners, Contact } from './components';
+import { Hero, Main as MainSection, Contact } from './components';
+//add Partners import   
 
 const PortfolioMasonry = () => {
   const theme = useTheme();
   return (
     <Main colorInvert={true}>
       <Hero />
-      <Container>
+      {/* <Container>
         <Partners />
-      </Container>
+      </Container> */}
       <Container>
         <MainSection />
       </Container>

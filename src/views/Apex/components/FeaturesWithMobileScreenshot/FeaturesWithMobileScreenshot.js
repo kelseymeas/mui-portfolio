@@ -127,8 +127,8 @@ const FeaturesWithMobileScreenshot = () => {
                     component={'img'}
                     src={
                       theme.palette.mode === 'light'
-                        ? 'https://assets.maccarianagency.com/screenshots/crypto-mobile.png'
-                        : 'https://assets.maccarianagency.com/screenshots/crypto-mobile--dark.png'
+                        ? 'https://kingswealth-images-cdn.s3.us-west-1.amazonaws.com/images/logan-moreno-gutierrez-fN6K30xtiKE-unsplash.jpg'
+                        : 'https://kingswealth-images-cdn.s3.us-west-1.amazonaws.com/images/logan-moreno-gutierrez-fN6K30xtiKE-unsplash.jpg'
                     }
                     alt="Image Description"
                     width={1}

@@ -21,7 +21,7 @@ const CtaSection = () => {
         gutterBottom
         color={'text.secondary'}
       >
-        Join a Clinical Research Study.
+        Join Apex Clinical Research Study.
       </Typography>
       <Box marginBottom={2}>
         <Typography
@@ -49,7 +49,7 @@ const CtaSection = () => {
       </Box>
       <Box marginBottom={3}>
         <Typography variant="h6" component="p" color="text.secondary">
-        IHCA is a multi-specialty dedicated clinical research site with over 20 years 
+        Apex is a multi-specialty dedicated clinical research site with over 20 years 
         of conducting clinical trials. Our team collaborates and functions as one 
         connected unit which ensures quality and excellence. Whether you are a participant, 
         sponsor, or CRO, our dedicated clinicians and attentive research staff make the 
@@ -64,21 +64,23 @@ const CtaSection = () => {
         <Button
           variant="contained"
           color="primary"
+          href="/about"
           size="large"
           fullWidth={isMd ? false : true}
         >
-          Book a space
+          Get In Touch
         </Button>
         <Box
           component={Button}
           variant="outlined"
           color="primary"
           size="large"
+          href="/about"
           marginTop={{ xs: 2, sm: 0 }}
           marginLeft={{ sm: 2 }}
           fullWidth={isMd ? false : true}
         >
-          Browse spaces
+          Learn More
         </Box>
       </Box>
     </Box>

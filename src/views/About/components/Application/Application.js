@@ -15,13 +15,13 @@ const Application = () => {
       >
         <Box>
           <Typography fontWeight={700} variant={'h5'} gutterBottom>
-            Interested in joining our team?
+            Have a question?
           </Typography>
           <Typography>Hit us up and we'll get in touch with you.</Typography>
         </Box>
         <Box display="flex" marginTop={{ xs: 2, md: 0 }}>
-          <Button variant="contained" color="primary" size="large">
-            Apply
+          <Button variant="contained" color="primary" size="large" href="/contact-page-cover">
+            Get in touch
           </Button>
         </Box>
       </Box>

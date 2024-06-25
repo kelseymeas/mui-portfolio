@@ -31,11 +31,11 @@ const Footer = () => {
               component={'img'}
               src={
                 mode === 'light'
-                  ? 'https://assets.maccarianagency.com/the-front/logos/logo.svg'
-                  : 'https://assets.maccarianagency.com/the-front/logos/logo-negative.svg'
+                  ? 'https://img.icons8.com/ios-filled/50/old-vmware-logo.png'
+                  : 'https://img.icons8.com/ios-filled/50/old-vmware-logo.png'
               }
-              height={1}
-              width={1}
+              height={.5}
+              width={.5}
             />
           </Box>
           <Box display="flex" flexWrap={'wrap'} alignItems={'center'}>
@@ -43,23 +43,23 @@ const Footer = () => {
               <Link
                 underline="none"
                 component="a"
-                href="/"
+                href="/about"
                 color="text.primary"
                 variant={'subtitle2'}
               >
-                Home
+                About
               </Link>
             </Box>
             <Box marginTop={1} marginRight={2}>
               <Link
                 underline="none"
                 component="a"
-                href="https://thefront.maccarianagency.com/docs/introduction"
+                href="/portfolio-masonry"
                 target={'blank'}
                 color="text.primary"
                 variant={'subtitle2'}
               >
-                Documentation
+                Research Studies
               </Link>
             </Box>
             <Box marginTop={1}>
@@ -68,10 +68,10 @@ const Footer = () => {
                 color="primary"
                 component="a"
                 target="blank"
-                href="https://mui.com/store/items/the-front-landing-page/"
+                href="/contact-page-cover"
                 size="small"
               >
-                Purchase now
+                Contact Us
               </Button>
             </Box>
           </Box>
@@ -84,7 +84,7 @@ const Footer = () => {
           color="text.secondary"
           gutterBottom
         >
-          &copy; theFront. 2021, Maccarian. All rights reserved
+          &copy; All rights reserved
         </Typography>
         <Typography
           align={'center'}

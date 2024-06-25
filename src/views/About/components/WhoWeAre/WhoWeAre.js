@@ -28,10 +28,8 @@ const WhoWeAre = () => {
               Who are we?
             </Typography>
             <Typography component={'p'} color={'text.secondary'}>
-              Our sign up is simple. We only require your basic company
-              information and what type of data storage you want. Our sign up is
-              dead simple. We only require your basic company information and
-              what type of data storage you want.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
             </Typography>
           </Box>
         </Grid>
@@ -48,10 +46,8 @@ const WhoWeAre = () => {
               Our process
             </Typography>
             <Typography component={'p'} color={'text.secondary'}>
-              We support bulk uploading via SQL, integrations with most data
-              storage products, or you can use our API. Simply select where
-              you'd like to transfer your data and we'll being the process of
-              migrating it instantly.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
             </Typography>
           </Box>
         </Grid>

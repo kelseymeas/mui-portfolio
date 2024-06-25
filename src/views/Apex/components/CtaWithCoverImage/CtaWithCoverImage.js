@@ -18,18 +18,15 @@ const CtaWithCoverImage = () => {
     <Box>
       <Box marginBottom={2}>
         <Typography variant="h4" color="text.primary" sx={{ fontWeight: 700 }}>
-          The new era of tech companies
+          The new era of clinical studies is here.
         </Typography>
       </Box>
       <Box marginBottom={4}>
         <Typography variant="h6" color="text.secondary" gutterBottom>
-          Drawing thousands of the world's technology leaders together to learn
-          and do business
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         </Typography>
         <Typography component="p">
-          Meh synth Schlitz, tempor duis single-origin coffee ea next level
-          ethnic fingerstache fanny pack nostrud. Photo booth anim 8-bit hella,
-          PBR 3 wolf moon beard Helvetica.
+         lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  
         </Typography>
       </Box>
       <Box
@@ -41,20 +38,22 @@ const CtaWithCoverImage = () => {
           variant="contained"
           color="primary"
           size="large"
+          href="/about"
           fullWidth={isMd ? false : true}
         >
-          Apply to exhibit
+          Learn More
         </Button>
         <Box
           component={Button}
           variant="outlined"
           color="primary"
           size="large"
+          href="/contact-page-cover"
           marginTop={{ xs: 2, sm: 0 }}
           marginLeft={{ sm: 2 }}
           fullWidth={isMd ? false : true}
         >
-          Apply to attend
+          Contact Us
         </Box>
       </Box>
     </Box>
@@ -121,7 +120,7 @@ const CtaWithCoverImage = () => {
                     <Box
                       component={'img'}
                       src={
-                        'https://assets.maccarianagency.com/backgrounds/img19.jpg'
+                        'https://kingswealth-images-cdn.s3.us-west-1.amazonaws.com/images/cdc-WCEOtVmk2VY-unsplash.jpg'
                       }
                       height={{ xs: 'auto', md: 1 }}
                       maxHeight={{ xs: 300, md: 1 }}

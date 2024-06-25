@@ -6,7 +6,7 @@ import {
   CtaWithCoverImage,
   FeaturesWithMobileScreenshot,
   FeaturesWithSimpleIcons,
-  LogoGridSimpleCentered
+  //LogoGridSimpleCentered
 } from './components';
 // added some changes to the code
 const Apex = () => {
@@ -14,9 +14,9 @@ const Apex = () => {
     <Main>
       <FullScreenHeroWithImageSlider />
 
-      <Container> 
+      {/* <Container> 
         <LogoGridSimpleCentered />
-      </Container>
+      </Container> */}
 
       <Container>
         <FeaturesWithSimpleIcons />

@@ -30,20 +30,21 @@ const Topbar = ({ onSidebarOpen, colorInvert = false }) => {
         display={'flex'}
         component="a"
         href="/"
-        title="theFront"
+        title="Apex Clinical"
         width={{ xs: 100, md: 120 }}
       >
         <Box
           component={'img'}
           src={
             mode === 'light' && !colorInvert
-              ? 'https://img.icons8.com/ios/100/screwdriver.png'
+              ? 'https://img.icons8.com/ios-filled/50/old-vmware-logo.png'
               : 'https://img.icons8.com/ios-filled/50/old-vmware-logo.png'
           }
           height={.4}
           width={.4}
         />
       </Box>
+
       <Box sx={{ display: { xs: 'none', md: 'flex' } }} alignItems={'center'}>
         {/* <Box>
           <NavItem
@@ -106,11 +107,11 @@ const Topbar = ({ onSidebarOpen, colorInvert = false }) => {
             href="/portfolio-masonry"
             size="large"
           >
-            Portfolio
+            Research Studies
           </Button>
         </Box>
 
-        <Box marginLeft={4}>
+        {/* <Box marginLeft={4}>
           <Button
             colorInvert={colorInvert}
             component="a"
@@ -120,7 +121,7 @@ const Topbar = ({ onSidebarOpen, colorInvert = false }) => {
           >
             Pricing
           </Button>
-        </Box>
+        </Box> */}
 
         {/* <Box marginLeft={4}>
           <NavItem

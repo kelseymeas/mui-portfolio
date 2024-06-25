@@ -1,16 +1,16 @@
 import React from 'react';
-import Box from '@mui/material/Box';
+//import Box from '@mui/material/Box';
 import Divider from '@mui/material/Divider';
 
 import Main from 'layouts/Main';
 import Container from 'components/Container';
 import {
   Contact,
-  Gallery,
+  //Gallery,
   Hero,
-  Partners,
+  //Partners,
   Story,
-  Team,
+  //Team,
   WhoWeAre,
   Application,
 } from './components';
@@ -28,19 +28,21 @@ const About = () => {
       <Container maxWidth={800} paddingY={'0 !important'}>
         <Divider />
       </Container>
-      <Container>
+      {/* <Container>
         <Team />
-      </Container>
-      <Box bgcolor={'alternate.main'}>
+      </Container> */}
+      {/* <Box bgcolor={'alternate.main'}>
         <Container>
           <Partners />
         </Container>
-      </Box>
-      <Contact />
+      </Box> */}
       <Container>
-        <Gallery />
+        <Contact />
       </Container>
-      <Container maxWidth={800} paddingTop={'0 !important'}>
+      {/* <Container>
+        <Gallery />
+      </Container> */}
+      <Container maxWidth={800} paddingTop={'0 !important'} >
         <Application />
       </Container>
     </Main>

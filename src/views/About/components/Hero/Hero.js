@@ -49,7 +49,7 @@ const Hero = () => {
           backgroundSize: 'cover',
           backgroundPosition: 'center center',
           backgroundImage:
-            'url(https://assets.maccarianagency.com/backgrounds/img52.jpg)',
+            'url(https://kingswealth-images-cdn.s3.us-west-1.amazonaws.com/images/julia-koblitz-RlOAwXt2fEA-unsplash.jpg)',
         }}
       />
       <Box
@@ -86,8 +86,8 @@ const Hero = () => {
               color: 'common.white',
             }}
           >
-            We are founded by a leading academic and researcher in the field of
-            Industrial Systems Engineering.
+            {/* We are founded by a leading academic and researcher in the field of
+            Industrial Systems Engineering. */}
           </Typography>
         </Box>
       </Container>

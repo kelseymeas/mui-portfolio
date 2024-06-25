@@ -116,7 +116,7 @@ const FeaturesWithSimpleIcons = () => {
             color={'secondary'}
             align={'center'}
           >
-            IHCA Spectrum
+            Apex Spectrum
           </Typography>
           <Typography
             variant="h4"

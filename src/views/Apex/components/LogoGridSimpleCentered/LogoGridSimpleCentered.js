@@ -26,7 +26,7 @@ const LogoGridSimpleCentered = () => {
             variant={'h4'}
             fontWeight={700}
           >
-            IHCA has worked on Clinical Trials with various Pharmaceutical Companies 
+            Apex has worked on Clinical Trials with various Pharmaceutical Companies 
             and Contract Research Organizations (CROs), including:
           </Typography>
           {/* <Typography color={'text.secondary'} align={'center'} variant={'h6'}>

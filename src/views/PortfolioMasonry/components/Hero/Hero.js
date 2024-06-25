@@ -12,7 +12,7 @@ const Hero = () => {
       position={'relative'}
       sx={{
         backgroundImage:
-          'url("https://assets.maccarianagency.com/backgrounds/img1.jpg")',
+          'url("https://kingswealth-images-cdn.s3.us-west-1.amazonaws.com/images/thisisengineering-8yS04veb1TQ-unsplash.jpg")',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         marginTop: -13,
@@ -62,7 +62,7 @@ const Hero = () => {
                 color: theme.palette.common.white,
               }}
             >
-              Join millions of businesses today.
+              Join us on our journey.
             </Typography>
           </Box>
         </Box>
